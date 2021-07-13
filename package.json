@@ -1,4 +1,5 @@
 {
+  "homepage": "https://courtlb.github.io/react-portfolio",
   "name": "react-portfolio",
   "version": "1.0.0",
   "description": "",
@@ -27,7 +28,6 @@
   "bugs": {
     "url": "https://github.com/courtlb/react-portfolio/issues"
   },
-  "homepage": "https://github.com/courtlb/react-portfolio#readme",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
