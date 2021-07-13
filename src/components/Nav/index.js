@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
   const {
@@ -9,11 +8,11 @@ function Nav(props) {
 
   return (
     <header className="flex-row px-1">
-      <h2>
+      <h1>
         <a data-testid="link" href="/">
            Courtney Brown
         </a>
-      </h2>
+      </h1>
       <nav>
         <ul className="flex-row">
           <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>

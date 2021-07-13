@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Project from '../Project';
 
 const Portfolio = () => {
-    const projects = [
+    const project = [
     {
       name: 'Angelfish',
       image: 'angelfish.png',
