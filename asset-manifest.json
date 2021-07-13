@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.17db855d.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.b38dacb2.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b38dacb2.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
+    "static/js/2.352ed71c.chunk.js": "/react-portfolio/static/js/2.352ed71c.chunk.js",
+    "static/js/2.352ed71c.chunk.js.map": "/react-portfolio/static/js/2.352ed71c.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.17db855d.chunk.css.map": "/react-portfolio/static/css/main.17db855d.chunk.css.map",
+    "static/js/2.352ed71c.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.352ed71c.chunk.js.LICENSE.txt",
+    "static/media/angelfish.68219896.png": "/react-portfolio/static/media/angelfish.68219896.png",
+    "static/media/cover-image.06bec63d.jpg": "/react-portfolio/static/media/cover-image.06bec63d.jpg",
+    "static/media/github-logo.png": "/react-portfolio/static/media/github-logo.b370f9c2.png",
+    "static/media/linkedin-logo.png": "/react-portfolio/static/media/linkedin-logo.e7234986.png",
+    "static/media/resume.c7cb87e1.doc": "/react-portfolio/static/media/resume.c7cb87e1.doc"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.872b2f22.js",
+    "static/js/2.352ed71c.chunk.js",
+    "static/css/main.17db855d.chunk.css",
+    "static/js/main.b38dacb2.chunk.js"
+  ]
+}
