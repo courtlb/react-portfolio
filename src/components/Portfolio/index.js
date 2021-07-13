@@ -6,7 +6,7 @@ const Portfolio = () => {
     {
       name: 'Angelfish',
       image: 'angelfish.png',
-      link: 'https://angelfish-project.herokuapp.com',
+      link: 'https://angelfish-group.herokuapp.com',
       github: 'https://github.com/courtlb/angelfish-project'
     },
     {
