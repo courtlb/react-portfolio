@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import Project from '../Project';
+import angelfish from '../../assets/images/angelfish.png';
 
 const Portfolio = () => {
     const project = [
     {
       name: 'Angelfish',
-      image: 'angelfish.png',
+      image: {angelfish},
       link: 'https://angelfish-group.herokuapp.com',
       github: 'https://github.com/courtlb/angelfish-project'
     },
