@@ -1,9 +1,8 @@
 {
-  "homepage": "https://courtlb.github.io/react-portfolio",
+  "homepage": "https://courtlb.github.io/react-portfolio/",
   "name": "react-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "dependencies": {
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
