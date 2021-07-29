@@ -1,53 +1,59 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Project from '../Project';
+import rex from '../../assets/images/rex.png'
 import angelfish from '../../assets/images/angelfish.png';
+import storm from '../../assets/images/storm.png';
+import blog from '../../assets/images/blog.png';
+import scheduler from '../../assets/images/scheduler.png';
+import quiz from '../../assets/images/quiz.png';
+
 
 const Portfolio = () => {
     const project = [
     {
+      name: 'Rescue Express',
+      image: rex,
+      link: 'https://still-plains-06700.herokuapp.com/',
+      github: 'https://github.com/courtlb/rex-project'
+    },
+    {
       name: 'Angelfish',
-      image: {angelfish},
+      image: angelfish,
       link: 'https://angelfish-group.herokuapp.com',
       github: 'https://github.com/courtlb/angelfish-project'
     },
     {
       name: 'A Storm Is Brewing',
-      image: 'storm.png',
+      image: storm,
       link: 'https://courtlb.github.io/storm-brewing',
       github: 'https://github.com/courtlb/storm-brewing'
     },
     {
       name: 'Tech Blog',
-      image: 'blog.png',
+      image: blog,
       link: 'https://shrouded-journey-82502.herokuapp.com/',
       github: 'https://github.com/courtlb/tech-blog'
     },
     {
       name: 'Work Day Scheduler',
-      image: 'scheduler.png',
+      image: scheduler,
       link: 'https://courtlb.github.io/work-day-scheduler/',
       github: 'https://github.com/courtlb/work-day-scheduler'
     },
     {
       name: 'Code Quiz',
-      image: 'quiz.png',
+      image: quiz,
       link: 'https://courtlb.github.io/code-quiz/',
       github: 'https://github.com/courtlb/code-quiz'
-    },
-    {
-      name: 'Password Generator',
-      image: 'password.png',
-      link: 'https://courtlb.github.io/password-generator/',
-      github: 'https://github.com/courtlb/password-generator'
     }
   ];
 
   return (
     <section>
       <div>
-          <h1>Courtney Brown Portfolio</h1>
+          <h1 className="section-title">My Portfolio</h1>
       </div>
-      <div>
+      <div className="portfolio">
         <ul className="flex-row">
           <li>
             <Project project={project[0]}></Project>

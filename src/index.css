@@ -16,6 +16,7 @@
 main {
     max-width: 90%;
     padding: 60px 60px;
+    min-height: calc(90vh - 70px);
 }
 
 body {
@@ -47,6 +48,10 @@ header h1 {
 
 header a{
   text-decoration: none;
+  color: var(--primary-color);
+}
+
+header span:hover {
   color: var(--primary-color);
 }
 
@@ -160,7 +165,7 @@ nav  li {
 }
 
 .about {
-  margin: 50px auto;
+  margin: 0 50px auto;
   padding-bottom: 50px;
   width: 90%;
   display: flex;
@@ -187,33 +192,120 @@ nav  li {
   text-align: justify;
 }
 
+/* Portfolio section */
 
 
+.portfolio img {
+  width: 500px;
+  margin: 30px;
+}
+
+.cardText a {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  padding: 15px;
+  color: var(--tertiary-color);
+  border-radius: 15px;
+  margin: 110px;
+}
+
+.cardText a:hover {
+  color: var(--primary-color);
+}
+
+.cardImg {
+  margin: 10px 0px;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.image:hover {
+  opacity: 30%;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 180%; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: var(--secondary-color);
+  font-size: 32px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.flex-row {
+  justify-content: space-around;
+}
 
 /* Contact section */
 
-.contact ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  width: 100%;
-  margin: 50px auto;
+.contactText {
+  margin: 20px;
+
+}
+.contactText p {
+  font-size: 20px;
 }
 
-.contact ul li a{
-  padding: 10px 15px;
-  font-size: 1.55vw;
-  text-decoration: none;
-  color: var(--tertiary-color)
-}
-
-.contact ul li a:hover {
+.contactText a {
   color: var(--secondary-color);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Resume */
+
+.resume {
+  text-align: center;
+  margin: 20px;
+  padding: 40px;
+
+}
+
+.resume a {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+  padding: 40px;
+  font-size: 24px;
+  border-radius: 25px;
+}
+
+.resume a:hover {
+  color: var(--primary-color);
+}
+
+.extra-space {
+  margin-top: 20px;
+}
+
+.skills {
+  margin-left: 20px;
+}
+
+.skills h2 {
+  font-size: 32px;
+  margin: 8px;
+}
+
+.skills ul {
+  margin-left: 28px;
+  font-size: 20px;
+}
 /* Footer */
 
 .footer{
@@ -221,7 +313,6 @@ nav  li {
     flex-wrap: wrap;
     justify-content: space-evenly;
     height: 50px;
-    margin-top: -50px;
   }
   
   .linkedinLogo,

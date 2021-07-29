@@ -8,8 +8,11 @@ function About() {
         <img src={coverImage} className="my-2" style={{ width: "50%" }} alt="cover" />
         <div className="my-2">
             <p>
-            Hello! My name is Courtney Brown, and I am a full-stack web developer in Austin, Texas. I am currently enrolled in the University of Texas' Coding Bootcamp. I graduated from Texas A&M University in 2016 with a degree in Petroleum Engineering. After working in the industry for several years, I decided to make a change to a career I am more passionate about. I love the problem solving and collaborative nature of coding, and am looking forward to learning more in the next few months of bootcamp.
-            </p>
+            Hello! My name is Courtney, and I am a full-stack web developer located in Austin, Texas. 
+            I am interested in leveraging my professional engineering background to create responsive web applications with a focus on seamless user interface. 
+            I recently graduated from the University of Texas Coding Bootcamp, improving my skills in JavaScript, SQL, and the MERN stack. 
+            I am passionate about breaking down large problems into smaller, manageable pieces, and collaborating with teammates to deliver a timely and impactful MVP. 
+            I’m eager to leverage my experience on fast-paced, cross-functional teams to tackle exciting web development projects.            </p>
         </div>
       </div>
     </section>

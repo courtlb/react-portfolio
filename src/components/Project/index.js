@@ -10,13 +10,13 @@ function Project(props) {
     return (
         <div className="card">
             <div className="cardImg">
-                <a href={link}>
-                    <img src={image} alt="screenshot of application" />
+                <a href={link} target="_blank" rel="noreferrer" className="container">
+                    <img src={image} className="image" alt="screenshot of application" />
+                    <div className="overlay">Go to {name}</div>
                 </a>
             </div>
             <div className="cardText">
-                <h2>{name}</h2>
-                <a href={github}>Github Repository</a>
+                <a href={github} target="_blank" rel="noreferrer">View Github Repository for {name}</a>
             </div>
         </div>
     );
