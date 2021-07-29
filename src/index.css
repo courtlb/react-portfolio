@@ -11,7 +11,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;}
 
 main {
     max-width: 90%;
@@ -237,7 +238,6 @@ nav  li {
   position: absolute; 
   bottom: 180%; 
   width: 100%;
-  transition: .5s ease;
   opacity:0;
   color: var(--secondary-color);
   font-size: 32px;
