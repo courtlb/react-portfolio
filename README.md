@@ -2,7 +2,7 @@
     
   [Deployed link](https://courtlb.github.io/react-portfolio/)
 
-  ![image](https://github.com/courtlb/react-portfolio/src/assets/images/screenshot.png?raw=true)
+  ![image](https://github.com/courtlb/react-portfolio/blob/master/src/assets/images/screenshot.png?raw=true)
 
   ## Table of Contents
   * [Description](#description)
